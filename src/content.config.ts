@@ -6,14 +6,16 @@ const learning = defineCollection({
     pattern: "**/*.md",
     base: "./src/content/learning",
   }),
-
   schema: z.object({
     title: z.string(),
-    date: z.date(),
+    date: z.coerce.date(),
+    topics: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
+    summary: z.string().optional(),
+    image: z.string().optional(),
   }),
 });
 
 export const collections = {
-  learning
+  learning,
 };
