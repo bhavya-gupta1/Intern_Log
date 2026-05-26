@@ -8,3 +8,6 @@ summary: "Made a very basic UI in streamlit to display the file contents for now
 ## What I learned
 - How `streamlit` is used to make quick UIs for apps in python
 - Astro for making a markdown based journal app
+
+### Side learning
+- `isinstance()` can be used to check for the variable to be of certain types
