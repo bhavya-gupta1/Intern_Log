@@ -1,7 +1,7 @@
 ---
 title: "Adding another feature"
 date: 2026-06-08
-tags: ['python']
+tags: ['python','streamlit']
 summary: "Adding the support for more than one endpoint to generate the test cases for."
 ---
 
