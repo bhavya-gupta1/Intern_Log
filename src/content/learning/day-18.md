@@ -1,7 +1,7 @@
 ---
 title: "Exploring web scraping"
 date: 2026-06-12
-tags: ['python', 'Beautiful soup', 'pywright']
+tags: ['python', 'Beautiful soup', 'playwright']
 summary: ""
 ---
 
